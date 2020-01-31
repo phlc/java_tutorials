@@ -36,7 +36,11 @@ public class Fields{
 
   //methods
   public void printFields(){
+
+    int localVariable = 12;
+
     System.out.println("intField: "+this.intField);
     System.out.println("classVariable: "+classVariable);
+    System.out.println("localVariable: "+localVariable);
   }
 }
